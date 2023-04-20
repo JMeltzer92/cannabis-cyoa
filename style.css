@@ -35,7 +35,7 @@ main {
 
 .story-pic {
     max-width: 200px;
-    /* float: right; */
+    float: right;
     margin-right: .5em;
     margin-bottom: .5em;
 }

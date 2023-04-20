@@ -111,16 +111,16 @@ const pickChoice = function (idChosen) {
     newStory.classList.add("story-slide");
     if (workingData.imgSrc) {newStory.innerHTML = `
     <p class = 'text-center hed'>${workingData.title}</p>
-
+    <div class = 'clearfix'>
         <img class = 'story-pic' src = '${workingData.imgSrc}'></img>
         <p class = 'graf with-pic'>${workingData.graf}</p>
-
+    </div>
     `} else {newStory.innerHTML = `
     <p class = 'text-center hed'>${workingData.title}</p>
     <p class = 'graf'>${workingData.graf}</p>
     `};
     body.append(newStory);
-    // </div>    <div class = 'clearfix'>
+    
     const newButtonBox = document.createElement("div");
     newButtonBox.classList.add("button-box");
     newButtonBox.setAttribute("used", 0)
