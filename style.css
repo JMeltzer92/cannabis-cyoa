@@ -15,24 +15,24 @@ BODY {
 }
 
 .embed-container {
-width:100%;
-padding: 25px;
+    width:100%;
+    padding: 25px;
 }
 
 .navbar {
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Nav Bar styles */
 
 #nav-logo {
-width:100%;
-max-width:1000px;
-margin:0 auto;
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
 }
 
 #logo {
-width:250px;
+    width:250px;
 }
 
 /* TYPOGRAPHY */
@@ -126,8 +126,8 @@ strong {
 }
 
 .story-pic {
-    max-width: 300px;
-    /* float: right; */
+    width: 300px;
+    max-width: 95%;
     margin-right: .5em;
     margin-bottom: .5em;
 }
@@ -283,6 +283,23 @@ p {
 
 .hed {
     font-size:2em;
+}
+
+.dek {
+    font-size:1.5em;
+}
+
+.graf {
+    margin: 5px;
+    font-size: 1em;
+}
+
+blockquote .quote {
+    font-size: 1.125em;
+}
+
+blockquote .source {
+    font-size: 1em;
 }
 
 }
