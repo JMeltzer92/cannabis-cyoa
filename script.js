@@ -72,7 +72,7 @@ const data = [
         <p class = 'graf'>“There are many of us that are small, independent operators… and the fees that have been proposed are really high,” said Tracey Lancaster-Miller, executive vice-president of Peake Relief in Rockville and President of the Maryland Dispensary Association. Lancaster-Miller and other current medical operators say federal regulations around taxation and banking make it difficult for them to write off these kinds of expenses like other businesses might be allowed to.</p>
         <blockquote><span class = "quote">“There are many of us that are small, independent operators… and the fees that have been proposed are really high,”</span><br><span class = "source">- Tracey Lancaster-Miller, executive VP, Peake Relief & President, Maryland Dispensary Association</span></blockquote>
         <p class = 'graf'>Lawmakers have also prioritized applicants potentially affected by the war on drugs, a series of aggressive state and federal drug enforcement policies that disproportionately affected Black Americans and served as one of the primary drivers of mass incarceration.</p>
-        <p class = "graf>The first round of new licenses will be reserved for “social equity applicants” and will be issued before Jan. 1, 2024. Though rules around race-based set-asides make it complicated to specifically prioritize Black and brown applicants, lawmakers crafted the definition of “social equity applicants” to make sure those most affected have the first spots in the line.</p>
+        <p class = 'graf'>The first round of new licenses will be reserved for “social equity applicants” and will be issued before Jan. 1, 2024. Though rules around race-based set-asides make it complicated to specifically prioritize Black and brown applicants, lawmakers crafted the definition of “social equity applicants” to make sure those most affected have the first spots in the line.</p>
         <p class = 'graf'>To be defined as “social equity applicant” (and if your application is successful a “social equity licensee), applicants will have maintain at least a 65% ownership stake in their business and fulfill at least one of these requirements:</p>
         <ul class = 'lineup-list'>
             <li>Have lived in a “disproportionately impacted area” for at least 5 of the last 10 years</li>
@@ -80,7 +80,7 @@ const data = [
             <li>Attended a four-year higher education institution in Maryland where at least 40% of students are eligible for Pell Grants</li>
         </ul>
         <p class = 'graf'>The bill defines a “disproportionately impacted area” as a geographic area denoted by the state cannabis commission’s new social equity office that had above 150% of the state’s 10-year average for cannabis possession charges. Licenses for second-round applicants will begin to be issued by May of 2024.</p>
-        <p class = 'graf'>Applying for a license – whether for growing, processing or retailing – also has a cost. A standard license application will cost $5,000 while an application for a “micro-license” will run $1,000. `,
+        <p class = 'graf'>Applying for a license – whether for growing, processing or retailing – also has a cost. A standard license application will cost $5,000 while an application for a “micro-license” will run $1,000.`,
         newButtons: [],
         nextQuestion: "",
         imgSrc: "images\\licensing.png",
@@ -123,7 +123,7 @@ const pickChoice = function (idChosen) {
     if (workingData.imgSrc) {newStory.innerHTML = `
     <p class = 'text-center sub-hed'>${workingData.title}</p>
     <img class = 'story-pic' src = '${workingData.imgSrc}' alt = '${workingData.alt}'></img>
-    <p class = 'graf with-pic'>${workingData.graf}</p>
+    <p class = 'graf'>${workingData.graf}</p>
     `} else {newStory.innerHTML = `
     <p class = 'text-center sub-hed'>${workingData.title}</p>
     <p class = 'graf'>${workingData.graf}</p>
