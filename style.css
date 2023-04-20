@@ -120,6 +120,10 @@ main {
     margin: 10px;
 }
 
+strong {
+    font-family: 'Poppins', sans-serif;
+}
+
 .story-pic {
     max-width: 300px;
     /* float: right; */
@@ -128,7 +132,8 @@ main {
 }
 
 .hero {
-    max-width: 400px;
+    width: 400px;
+    max-width: 90%;
 }
 
 blockquote {
@@ -162,6 +167,7 @@ blockquote .source {
 
 .button-box {
     width: max-content;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -169,7 +175,7 @@ blockquote .source {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-style: italic;
     margin-top: .5em;
 }
