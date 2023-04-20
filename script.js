@@ -7,7 +7,9 @@ const data = [
         graf: `Voters have overwhelmingly affirmed your right to buy cannabis. It’s been a long battle in the arena of public opinion: as recently as 2010, less than half of Americans supported legal cannabis. Today, nearly 70% do. Over two thirds of Maryland voters voted for legalization, more than voted for new governor Wes Moore.</p>
         <p class = "graf">As public support for cannabis has increased, so has the understanding of the diversity of cannabis consumers. Legalization will give users and prospective users more time to think about what kind of user you’d like to be.`,
         newButtons: [2, 3],
-        nextQuestion: "My use will be..."
+        nextQuestion: "My use will be...",
+        imgSrc: "images\\line.png",
+        alt: "An impressionist-style rendering of a large group of people waiting in line."
     },
     {id: 1,
         title: "Business",
@@ -21,7 +23,7 @@ const data = [
     },
     {id: 2,
         title: "Medical",
-        graf: `Good news! Not a lot is going to change for you. You will continue to be able to buy from your licensed medical dispensary and not a lot should change about how the process looks. One key difference: taxation. Cannabis will be taxed at 9%.`,
+        graf: `Good news! Not a lot is going to change for you. You will continue to be able to buy from your licensed medical dispensary and not a lot should change about how the process looks. One key difference: taxation. Cannabis will be taxed at 9%. Medical cannabis will remain untaxed, so hold on to those medical cards.`,
         newButtons: [],
         nextQuestion: "",
         imgSrc: "images\\medical.png",
@@ -58,19 +60,21 @@ const data = [
         alt: "An impressionist-style rendering of a group of workers in white coats, goggles and respirators processing cannabis."
     },
     {id: 6,
-        title: "Distributor/Dispensary",
+        title: "Distributor / Dispensary",
         graf: `Dispensaries will be the most people-facing arm of the cannabis industry. Dispensaries and dispensary owners will play a large role in making sure there is adequate supply for the avalanche of demand that lawmakers expect starting July 1 and providing the kind of advice that will help consumers ensure they are practicing healthy consumption habits.</p>
         <p class = 'graf'>Dispensary licenses will make business owners eligible to operate a physical retail location and sell cannabis products, so the next step after getting licensed will be to find a supplier and a storefront.</p>
         <p class = 'graf'>But you don’t need a store to sell cannabis. The bill provides for “micro-licenses,” which will allow businesses to operate a delivery service for cannabis products, as long as that business has fewer than 10 employees.`,
         newButtons: [7],
-        nextQuestion: "What now?"
+        nextQuestion: "What now?",
+        imgSrc: "images\\amigos.png",
+        alt: "An impressionist-style rendering of three men packaging, or perhaps otherwise working with, cannabis plants."
     },
     {id: 7,
         title: "Get Licensed",
         graf: `You’ve done all your homework. You’ve got your finances in order. You’ve studied the viability of the idea. You put a business plan together. You have investors lined up. The final step before you can become a bona fide cannabis entrepreneur is to get the state’s seal of approval – a license to operate.</p>
         <p class = 'graf'>Competition for licenses is expected to be fierce, given high demand for cannabis. That said, the state still needs operators ready to meet the state’s demand on day one. To that aim, current licensed medical operators will be able to convert their license to a recreational one by paying a conversion fee in line with their revenue, but not more than $2 million. Some medical operators feel the fee is too high.</p>
         <p class = 'graf'>“There are many of us that are small, independent operators… and the fees that have been proposed are really high,” said Tracey Lancaster-Miller, executive vice-president of Peake Relief in Rockville and President of the Maryland Dispensary Association. Lancaster-Miller and other current medical operators say federal regulations around taxation and banking make it difficult for them to write off these kinds of expenses like other businesses might be allowed to.</p>
-        <blockquote><span class = "quote">“There are many of us that are small, independent operators… and the fees that have been proposed are really high,”</span><br><span class = "source">- Tracey Lancaster-Miller, executive VP, Peake Relief & President, Maryland Dispensary Association</span></blockquote>
+        <blockquote><span class = "quote">“There are many of us that are small, independent operators… and the fees that have been proposed are really high,”</span><br><span class = "source">- Tracey Lancaster-Miller, Executive VP, Peake Relief & President, Maryland Dispensary Association</span></blockquote>
         <p class = 'graf'>Lawmakers have also prioritized applicants potentially affected by the war on drugs, a series of aggressive state and federal drug enforcement policies that disproportionately affected Black Americans and served as one of the primary drivers of mass incarceration.</p>
         <p class = 'graf'>The first round of new licenses will be reserved for “social equity applicants” and will be issued before Jan. 1, 2024. Though rules around race-based set-asides make it complicated to specifically prioritize Black and brown applicants, lawmakers crafted the definition of “social equity applicants” to make sure those most affected have the first spots in the line.</p>
         <p class = 'graf'>To be defined as “social equity applicant” (and if your application is successful a “social equity licensee), applicants will have maintain at least a 65% ownership stake in their business and fulfill at least one of these requirements:</p>
